@@ -1,0 +1,59 @@
+services.html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>サービス | Ohtsu Mix</title>
+  <meta name="description" content="Ohtsu Mixのサービス内容：ミックスエンジニアリング、ボーカルエディット、簡易マスタリング。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Ohtsu Mix</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="services.html">サービス</a></li>
+          <li><a href="portfolio.html">ポートフォリオ</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- サービス内容 -->
+  <section class="content">
+    <div class="container">
+      <h2>Ohtsu Mix サービス内容</h2>
+      <div class="service-item">
+        <h3>ミックスエンジニアリング</h3>
+        <p>各トラックのバランス調整、EQ、コンプレッションで、音楽に深みと透明感をプラスします。<br>料金例: ¥15,000〜</p>
+      </div>
+      <div class="service-item">
+        <h3>ボーカルエディット</h3>
+        <p>ピッチやタイミングの微調整で、ボーカルの魅力を最大限に引き出します。<br>料金例: ¥5,000〜</p>
+      </div>
+      <div class="service-item">
+        <h3>簡易マスタリング</h3>
+        <p>最終的な音の仕上げで、どんな再生環境でもクリアに響く音に。<br>追加料金例: +¥3,000〜</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- フッター -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Ohtsu Mix. All Rights Reserved.</p>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="https://twitter.com/otsumixstudio" target="_blank">Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/otsumix" target="_blank">LinkedIn</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

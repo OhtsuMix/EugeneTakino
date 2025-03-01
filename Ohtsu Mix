@@ -1,0 +1,49 @@
+index.html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ohtsu Mix - プロフェッショナルミックスエンジニア</title>
+  <meta name="description" content="Ohtsu Mixは、プロフェッショナルなミックスエンジニアとして、あなたの音楽に隠れた可能性を引き出します。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Ohtsu Mix</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="services.html">サービス</a></li>
+          <li><a href="portfolio.html">ポートフォリオ</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- ヒーローセクション -->
+  <section class="hero">
+    <div class="container">
+      <h2>あなたの音楽に、隠れた可能性を引き出す</h2>
+      <p>プロフェッショナルなミックスで、楽曲に生命を吹き込みます</p>
+      <a href="portfolio.html" class="cta-button">ポートフォリオを見る</a>
+    </div>
+  </section>
+  
+  <!-- フッター -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Ohtsu Mix. All Rights Reserved.</p>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="https://twitter.com/otsumixstudio" target="_blank">Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/otsumix" target="_blank">LinkedIn</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
