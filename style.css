@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Noto Serif JP', serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: opacity 0.3s;
+}
+
+nav ul li a:hover {
+    opacity: 0.7;
+}
+
+.hero {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.discography-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.discography-title {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.discography-title:hover {
+    color: #bbb;
+}
+
+.discography-content {
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.discography-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.discography-content li {
+    font-size: 1.2rem;
+    padding: 8px 0;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+.credit {
+    font-style: italic;
+    color: #ccc;
+}
