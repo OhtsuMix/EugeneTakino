@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400&display=swap');
+
+body {
+    font-family: 'Noto Serif JP', serif;
+    background: url('images/background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+header {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.description {
+    font-size: 16px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.discography h2 {
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#discography-content {
+    display: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .discography h2 {
+        font-size: 20px;
+    }
+}
