@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     const discographySection = document.querySelector(".discography");
     const backgroundVideo = document.getElementById("background-video");
@@ -13,12 +12,15 @@ document.addEventListener("DOMContentLoaded", function() {
             // ディスコグラフィーを開いたら動画に切り替え
             backgroundImage.style.display = "none";
             backgroundVideo.style.display = "block";
-            backgroundVideo.play(); // 念のため再生開始
+
+            // 動画が確実に再生されるようにする
+            backgroundVideo.play().catch(error => {
+                console.log("動画の再生がブロックされました:", error);
+            });
         } else {
             // ディスコグラフィーを閉じたら画像に戻す
             backgroundVideo.style.display = "none";
             backgroundImage.style.display = "block";
-            backgroundVideo.pause(); // 念のため動画を停止
         }
     });
 });
