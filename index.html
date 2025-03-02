@@ -8,13 +8,14 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-<!-- 動画背景 -->
-<div class="video-background">
-    <video autoplay muted loop id="background-video">
-        <source src="images/slow_muted_background.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>
+    <!-- 動画背景 + 画像の予備 -->
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="images/slow_muted_background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <img src="images/old_background.jpg" alt="背景画像" class="fallback-background">
+    </div>
     <!-- ナビゲーション -->
     <header>
         <nav>
