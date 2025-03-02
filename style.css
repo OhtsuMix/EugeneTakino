@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Noto Serif JP', serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+/* ディスコグラフィー */
+.discography-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.discography-title {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.discography-title:hover {
+    color: #bbb;
+}
+
+.discography-content {
+    display: block; /* 初期状態で表示 */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    background: rgba(0, 0, 0, 0.7); /* 背景を半透明の黒に */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.discography-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.discography-content li {
+    font-size: 1rem;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.artist {
+    font-weight: bold;
+    color: white; /* 文字色を白に */
+}
+
+.credit {
+    font-style: italic;
+    color: #ccc;
+}

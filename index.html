@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OtsuMix Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Eugene Takino</h1>
+        <nav>
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#mix">My Mix</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 背景画像（デフォルト） -->
+    <img src="no_people_background.jpeg" alt="スタジオ背景" class="background-image">
+
+    <!-- 背景動画（ディスコグラフィー表示時） -->
+    <video autoplay muted loop playsinline id="background-video" class="hidden">
+        <source src="slow_muted_background.mp4" type="video/mp4">
+    </video>
+
+    <section class="about">
+        <h2>About</h2>
+        <p>
+            影響を受けたエンジニア: サーヴァン・ギニア、トム・エルム・ハースト。
+            卓越したバランス感覚と空間表現を持つ彼らの手法にインスパイアを受け、独自のサウンドデザインを追求。
+            リスナーが飽きることなく楽曲の世界に没入できるよう、奥行きとダイナミクスを重視したミックスを心がけている。
+        </p>
+    </section>
+
+    <section class="discography-section">
+        <h2 class="discography-title">Discography ▼</h2>
+        <div id="discography" class="discography-content hidden">
+            <h3>2025</h3>
+            <ul>
+                <li><span class="artist">aiko</span> - シネマ <span class="credit">(Second Engineer)</span></li>
+            </ul>
+            <h3>2024</h3>
+            <ul>
+                <li><span class="artist">aiko</span> - 残心残暑 <span class="credit">(All Songs. Second Engineer)</span></li>
+                <li><span class="artist">小田和正</span> - 自己ベスト-3 <span class="credit">(M1, M15, M16. Second Engineer)</span></li>
+                <li><span class="artist">角松敏生</span> - Tiny Scandal <span class="credit">(All Songs. Second Engineer)</span></li>
+                <li><span class="artist">NiziU</span> - AWAKE <span class="credit">(M4, M7, M8. Second Engineer)</span></li>
+                <li><span class="artist">鈴木雅之</span> - Snazzy <span class="credit">(All Songs. Second Engineer)</span></li>
+                <li><span class="artist">松下奈緒</span> - souNds! <span class="credit">(M2. Editing)</span></li>
+                <li><span class="artist">鈴木愛理</span> - 28/29 <span class="credit">(M10. Editing)</span></li>
+                <li><span class="artist">鈴木愛理</span> - THE FIRST TAKE 「恋におちたら」 <span class="credit">(Editing)</span></li>
+                <li><span class="artist">小田和正</span> - クリスマスの約束 (Live) <span class="credit">(Editing)</span></li>
+            </ul>
+            <p>etc.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
